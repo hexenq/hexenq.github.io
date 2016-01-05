@@ -3,13 +3,15 @@
 # kuroshiro.js
 
 [![Build Status](https://travis-ci.org/hexenq/kuroshiro.js.svg?branch=master)](https://travis-ci.org/hexenq/kuroshiro.js)
-[![Coverage Status](https://coveralls.io/repos/hexenq/kuroshiro.js/badge.png)](https://coveralls.io/r/hexenq/kuroshiro.js)
+[![Coverage Status](https://coveralls.io/repos/hexenq/kuroshiro.js/badge.svg)](https://coveralls.io/r/hexenq/kuroshiro.js)
 [![npm version](https://badge.fury.io/js/kuroshiro.svg)](http://badge.fury.io/js/kuroshiro)
-[![Bower version](https://badge.fury.io/bo/kuroshiro.svg)](http://badge.fury.io/bo/kuroshiro)
+[![Bower version](https://badge.fury.io/bo/kuroshiro.svg)](https://badge.fury.io/bo/kuroshiro)
 [![dependencies](https://david-dm.org/hexenq/kuroshiro.js.svg)](https://david-dm.org/hexenq/kuroshiro.js)
 
 kuroshiro.js is a japanese language utility mainly for converting Kanji-mixed sentence to Hiragana, Katakana or Romaji
 with furigana and okurigana modes supported. This project is inspired by kuromoji and wanakana.
+
+*Read this in other languages: [English](README.md), [简体中文](README.zh-cn.md).*
 
 ## Demo
 You can check the demo [here](http://www.hexenq.com/kuroshiro/demo/index.html).
@@ -55,7 +57,7 @@ Initiate kuroshiro.js. You should call this function once before calling other f
 
 __Arguments__
 
-* `options` - *Optional* An object with options. You can set `dicPath` (Dictionary Path) here.
+* `options` - *Optional* An object with options. You can set `dicPath` (IPA Dictionary Path) here.
 * `callback` - *Optional* A callback which is called when kuroshiro.js has been initiated, or an error occurs.
 
 __Examples__
