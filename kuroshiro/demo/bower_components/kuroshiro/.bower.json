@@ -1,6 +1,6 @@
 {
   "name": "kuroshiro",
-  "version": "0.1.1",
+  "version": "0.1.4",
   "authors": [
     "Hexen Qi <hexenq@gmail.com>"
   ],
@@ -39,13 +39,13 @@
     "gulpfile.js",
     "package.json"
   ],
-  "_release": "0.1.1",
+  "_release": "0.1.4",
   "_resolution": {
     "type": "version",
-    "tag": "0.1.1",
-    "commit": "6ea039fed12665f30676160b2c4962f4731e40c2"
+    "tag": "0.1.4",
+    "commit": "4ae2c009282f95c3d6dbe872734dfb71196fdc73"
   },
-  "_source": "git://github.com/hexenq/kuroshiro.js.git",
+  "_source": "https://github.com/hexenq/kuroshiro.js.git",
   "_target": "*",
   "_originalSource": "kuroshiro"
 }
