@@ -11,8 +11,23 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     display: block;
 }
 
+html {
+    font-size: 18pt;
+}
+
 body {
-    line-height: 1;
+    min-width: 320px;
+    min-height: 100vh;
+    line-height: 1.0;
+    word-wrap: break-word;
+    overflow-x: hidden;
+    /*background-color: #363657;*/
+    background: #282537;
+    background-image: -webkit-radial-gradient(top, circle cover, #3c3b52 0%, #252233 80%);
+    background-image: -moz-radial-gradient(top, circle cover, #3c3b52 0%, #252233 80%);
+    background-image: -o-radial-gradient(top, circle cover, #3c3b52 0%, #252233 80%);
+    background-image: radial-gradient(top, circle cover, #3c3b52 0%, #252233 80%);
+    -webkit-text-size-adjust: none
 }
 
 ol, ul {
@@ -33,12 +48,8 @@ table {
     border-spacing: 0;
 }
 
-body {
-    -webkit-text-size-adjust: none
-}
-
 mark {
-    background-color: transparent;
+    background-color: rgba(144, 144, 144, 0.25);
     color: inherit
 }
 
@@ -56,20 +67,6 @@ input, select, textarea {
 
 *, *:before, *:after {
     box-sizing: border-box;
-}
-
-body {
-    min-width: 320px;
-    min-height: 100vh;
-    line-height: 1.0;
-    word-wrap: break-word;
-    overflow-x: hidden;
-    /*background-color: #363657;*/
-    background: #282537;
-    background-image: -webkit-radial-gradient(top, circle cover, #3c3b52 0%, #252233 80%);
-    background-image: -moz-radial-gradient(top, circle cover, #3c3b52 0%, #252233 80%);
-    background-image: -o-radial-gradient(top, circle cover, #3c3b52 0%, #252233 80%);
-    background-image: radial-gradient(top, circle cover, #3c3b52 0%, #252233 80%);
 }
 
 strong {
@@ -93,10 +90,6 @@ code {
     border-radius: 0.25em;
 }
 
-mark {
-    background-color: rgba(144, 144, 144, 0.25);
-}
-
 a {
     -moz-transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
     -webkit-transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
@@ -108,10 +101,6 @@ a {
 
 s {
     text-decoration: line-through;
-}
-
-html {
-    font-size: 18pt;
 }
 
 #wrapper {
@@ -446,7 +435,7 @@ h1, h2 {
     width: auto;
     max-width: 100%;
     margin: 0;
-    vertical-align: top;
+    vertical-align: middle;
     height: auto;
     max-height: 8.375rem;
     border-radius: 0.125rem;
@@ -602,7 +591,7 @@ hr:before {
     line-height: 2.625rem;
     padding: 0 1.3125rem;
     text-transform: uppercase;
-    font-size: 0.625em;
+    font-size: 0.8em;
     font-family: 'Quicksand','Microsoft YaHei';
     letter-spacing: 0.225rem;
     padding-left: calc(0.225rem + 1.3125rem);
@@ -622,6 +611,16 @@ hr:before {
 .buttons .button:hover {
     color: #f5eba1;
     border-color: #f5eba1;
+}
+
+.building {
+    background: repeating-linear-gradient(
+        -55deg,
+        transparent,
+        transparent 10px,
+        #f5eba1 10px,
+        #f5eba1 20px
+    );
 }
 
 @media (max-width: 1680px) {
@@ -736,7 +735,7 @@ hr:before {
     #main>.inner>.active>.flush:last-child {
         margin-bottom: -1.875rem !important;
     }
-    #text01 {
+    h1 {
         font-size: 2em;
     }
     .gallery ul {
