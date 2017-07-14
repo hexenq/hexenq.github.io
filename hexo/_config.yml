@@ -6,7 +6,7 @@
 title: 嗨森的猫窝
 subtitle:
 description: 非著名加菲喵型程序员嗨森的猫窝
-author: Hexen
+author: 嗨森
 language: zh-Hans
 timezone:
 
@@ -69,3 +69,8 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: 
+
+# Third Party
+live2d:
+  model: hijiki
+  bottom: -60

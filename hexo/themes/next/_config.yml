@@ -14,7 +14,7 @@ keywords: "嗨森,嗨森加菲喵,嗨森的猫窝,加菲猫,加菲,猫,Hexen,hex
 rss:
 
 # Specify the date when the site was setup
-#since: 2015
+since: 2017
 
 # icon between year and author @Footer
 authoricon: heart
@@ -140,8 +140,12 @@ font:
 # Social Links
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
-#social:
-  #LinkLabel: Link
+social:
+  微博: http://weibo.com/hexen
+  GitHub: https://github.com/hexenq
+  Twitter: https://twitter.com/hexenq
+  Instagram: https://instagram.com/hexenq
+  邮箱: mailto:hexenq@gmail.com
 
 
 # Social Links Icons
@@ -153,15 +157,17 @@ social_icons:
   enable: true
   # Icon Mappings.
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
+  微博: weibo
   GitHub: github
   Twitter: twitter
-  Weibo: weibo
+  Instagram: instagram
+  邮箱: envelope
 
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
 # in site  directory(source/uploads): /uploads/avatar.jpg
-#avatar:
+avatar: /images/hexen.jpg
 
 
 # Table Of Contents in the Sidebar
@@ -211,11 +217,14 @@ sidebar:
 
 
 # Blog rolls
-#links_title: Links
+links_title: 友情链接
 #links_layout: block
-#links_layout: inline
-#links:
-  #Title: http://example.com/
+links_layout: inline
+links:
+  饮冰先生: https://myanbin.github.io/
+  Ray’s 博客: https://ray916.github.io/
+  zkli’s blog: https://lizekui.github.io/
+  # 见而未见: http://icemelo.com/
 
 
 # ---------------------------------------------------------------
@@ -304,15 +313,15 @@ han: false
 #swiftype_key:
 
 # Baidu Analytics ID
-#baidu_analytics:
+baidu_analytics: d0214a233ee1f1119b7c6b46a9079471
 
 # Duoshuo ShortName
 #duoshuo_shortname:
 
 # Disqus
 disqus:
-  enable: false
-  shortname:
+  enable: true
+  shortname: hexen
   count: true
 
 # Hypercomments
@@ -336,23 +345,23 @@ changyan:
 # Available value:
 #    button | slide
 # Warning: Baidu Share does not support https.
-#baidushare:
+#baidushare: true
 ##  type: button
 
 # Share
-#jiathis:
+jiathis: true
 # Warning: JiaThis does not support https.
-#add_this_id:
+add_this_id: 1345547341235297
 
 # Share
 #duoshuo_share: true
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
-#google_site_verification:
+google_site_verification: FAQrVxRhjSq0V---CJjUjDJmsMlA7HbLSohEvmLSYOw
 
 # Google Analytics
-#google_analytics:
+google_analytics: 71952677-1
 
 # Yandex Webmaster tools verification setting
 # See: https://webmaster.yandex.ru/
@@ -421,7 +430,7 @@ leancloud_visitors:
 # Get more information on http://ibruce.info/2015/04/04/busuanzi/
 busuanzi_count:
   # count values only if the other configs are false
-  enable: false
+  enable: true
   # custom uv span for the whole site
   site_uv: true
   site_uv_header: <i class="fa fa-user"></i>
@@ -476,7 +485,7 @@ algolia_search:
 
 # Local search
 local_search:
-  enable: false
+  enable: true
   # if auto, trigger search by changing input
   # if manual, trigger search by pressing enter key or search button
   trigger: auto
