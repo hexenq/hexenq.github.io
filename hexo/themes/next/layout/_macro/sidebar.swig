@@ -29,7 +29,7 @@
           <img class="site-author-image" itemprop="image"
                src="{{ url_for( theme.avatar | default(theme.images + '/avatar.gif') ) }}"
                alt="{{ theme.author }}" />
-          <p class="site-author-name" itemprop="name">{{ theme.author }}</p>
+          <p class="site-author-name" itemprop="name"><ruby>{{ theme.author }}<rt>{{ theme.author_en }}</rt></ruby></p>
            {% if theme.seo %}
               <p class="site-description motion-element" itemprop="description">{{ theme.signature }}</p>
            {% else %}

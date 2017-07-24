@@ -1,3 +1,21 @@
+.textlogo {
+  font-family: 'Austie Bost Kitten Klub';
+  font-size: 2em;  
+  margin-bottom: -2.3rem !important;
+  color: #f5eba1;
+}
+
+/* Custom Q Neko Font */
+@font-face {
+	font-family: 'Austie Bost Kitten Klub';
+	src: url('../fonts/AustieBostKittenKlub.eot');
+	src: url('../fonts/AustieBostKittenKlub.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/AustieBostKittenKlub.woff') format('woff'),
+		url('../fonts/AustieBostKittenKlub.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
 /* START TOOLTIP STYLES */
 [tooltip] {
   box-sizing: content-box;
