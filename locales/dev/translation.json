@@ -1,7 +1,8 @@
 {
+    "title": "Hexen's Cattery",
     "home":{
         "name": "Hexen",
-        "welcome": "Hello, I'm Hexen. A cat type programmer. Welcome to my house.",
+        "welcome": "Hello, I'm Hexen. A cat type programmer. Welcome to my cattery.",
         "home": "Home",
         "works": "Work",
         "blog": "Blog"

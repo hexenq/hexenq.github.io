@@ -1,13 +1,14 @@
 {
+    "title": "Hexen's Cattery",
     "home":{
         "name": "Hexen",
-        "welcome": "Hello, I'm Hexen. A cat type programmer. Welcome to my house.",
+        "welcome": "Hello, I'm Hexen. A cat type programmer. Welcome to my cattery.",
         "home": "Home",
         "works": "Work",
         "blog": "Blog"
     },
     "tooltip":{
-        "kuroshiro": "A japanese language utility for converting Kanji-mixed sentence to Hiragana, Katakana or Romaji",
+        "kuroshiro": "A japanese language utility for converting Japanese sentence to Hiragana, Katakana or Romaji",
         "moelib": "A website providing various nijigen resources and informations",
         "lyy48": "A website for supporting Li Yuanyuan (A member of Chinese idol girl group BEJ48)"
     }
