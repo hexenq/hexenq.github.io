@@ -53,7 +53,8 @@ var on = addEventListener,
     };
 on('load',
     function () {
-        i18n.init({load:'unspecific'}, function(err, t) {
+        i18n.init({ load: 'current' }, function(err, t) {
+            $("head").i18n();
             $("body").i18n();
         });
         setTimeout(function () {
